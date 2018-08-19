@@ -1,0 +1,26 @@
+문제 1
+>>> input1 = input("첫번째 숫자를 입력하세요 :")
+첫번째 숫자를 입력하세요 :3
+>>> input2 = input("두번째 숫자를 입력하세요 :")
+두번째 숫자를 입력하세요 :6
+>>> total = int(input1) + int(input2)
+>>> print("두 수의 합은 %s 입니다." % total)
+두 수의 합은 9 입니다.
+
+문제 2
+>>> user_input = input("숫자를 입력하세요:")
+숫자를 입력하세요:65, 45, 2, 3, 45, 8
+>>> numbers = user_input.split(",")
+>>> total=0
+>>> for n in numbers:
+...     total += int(n)
+...
+>>> print(total)
+168
+
+문제 3
+print("you" "need" "python")
+print("you"+"need"+"python")
+print("you", "need", "python")
+print("".join(["you", "need", "python"]))
+3번째가 다르다.
