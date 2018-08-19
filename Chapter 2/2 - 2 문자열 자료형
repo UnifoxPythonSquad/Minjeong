@@ -1,0 +1,68 @@
+문제 1
+>>> print ("\"점프 투 파이썬\" 문제를 풀어보자")
+"점프 투 파이썬" 문제를 풀어보자
+
+문제 2
+>>> a = '''
+... Life is too short
+... You need Python
+... '''
+>>> print(a)
+
+Life is too short
+You need Python
+
+
+문제 3
+>>> ' ' * 24 + "PYTHON"
+'                        PYTHON'
+
+문제 4
+>>> a = "881120-1068234"
+>>> yyyymmdd = a[:6]
+>>> b = a[7:]
+>>> print(yyyymmdd)
+881120
+>>> print(b)
+1068234
+
+문제 5
+>>> a = "881120-1068234"
+>>> print(a[7])
+1
+
+문제 6
+>>> a = '1980M1120'
+>>> a[:4]
+'1980'
+>>> a[4]
+'M'
+>>> a[5:]
+'1120'
+>>> a[4]+a[:4]+a[5:]
+'M19801120'
+
+문제 7
+>>> "%30s" % "PYTHON"
+'                        PYTHON'
+
+문제 8
+>>> a = "Life is too short, you need python"
+>>> a.find("short")
+12
+
+문제 9
+>>> a = "a:b:c:d"
+>>> b = a.replace(":","#")
+>>> b
+'a#b#c#d'
+
+문제 10
+>>> a = "a:b:c:d"
+>>> b = a.split(":")
+>>> b
+['a', 'b', 'c', 'd']
+>>> c = "#".join(b)
+>>> c
+'a#b#c#d'
+
