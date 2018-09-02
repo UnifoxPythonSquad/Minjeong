@@ -9,6 +9,7 @@ Iterator
  각 요소를 하나씩 꺼내 간편한 방법을 제공하는 객체이다.
 
 **예제 1**
+
     >>> a = [1, 2, 3, 4]
     >>> a_iter = iter(a)
     >>> type(a_iter)
@@ -28,6 +29,7 @@ Iterator
     StopIteration
 
 **예제 2**
+
     >>> for element in [1, 2, 3]:
     ...     print(element)
     ...
@@ -36,6 +38,7 @@ Iterator
     3
 
 **예제 3**
+
     >>> for element in (1, 2, 3):
     ...     print(element)
     ...
@@ -44,6 +47,7 @@ Iterator
     3
   
 **예제 4**
+
     >>> for element in {1, 2, 3}:
     ...     print(element)
     ...
@@ -52,6 +56,7 @@ Iterator
     3
     
 **예제 5**
+
     >>> for key in {"a":1,"b":2,"c":3}:
     ...     print(key)
     ...
@@ -60,6 +65,7 @@ Iterator
     c
     
 **예제 6**
+
     >>> for char in "123":
     ...     print(char)
     ...
@@ -68,6 +74,7 @@ Iterator
     3
     
 **예제 7**
+
     >>> s = 'abc'
     >>> it = iter(s)
     >>> it
