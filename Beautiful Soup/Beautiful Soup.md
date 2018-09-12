@@ -34,9 +34,9 @@ Beautiful Soup 사용법
     4 html = requests.get("http://www.hwanho.net")
     5 soup = BeautifulSoup(html, "lxml")
     
-~~+urllib 또는 Requests 모듈을 함께 사용하여 그 url의 HTML을 파싱할 수도 있다.
++urllib 또는 Requests 모듈을 함께 사용하여 그 url의 HTML을 파싱할 수도 있다.
 
-    ~~1 import requests~~
+    1 import requests
     2 from bs4 import BeautifulSoup
     3
     4 res = requests.get("https://news.v.daum.net/v/20180911171941726")
@@ -47,6 +47,6 @@ Beautiful Soup 사용법
     9 for postTitle in postTitles:
     10     print(postTitle.text)
     
-+
+
 
 
